@@ -11,7 +11,7 @@ Sistem, piksel matrisini işlerken aynı algoritmanın modern bir C derleyicisi 
 * **Düşük Seviye Bellek Yönetimi:** C üzerinden tahsis edilen piksel matrisine, Assembly tarafında doğrudan bellek adresleri üzerinden müdahale edilir.
 * **Performans Kıyaslama:** Aynı veri seti her iki dilde de işlenerek donanımdaki yürütme süresi farkı hesaplanır ve yüzdelik oranla terminale raporlanır.
 
-##  Kurulum ve Derleme (Linux)
+##  Kurulum ve Derleme 
 
 Not:Projenin derlenebilmesi için sisteminizde GCC ve NASM kurulu olmalıdır.
 

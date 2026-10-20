@@ -1,6 +1,6 @@
-# BMPFilter
+# BMP Filter
 
-BMPFilter, 24-bit sıkıştırılmamış BMP görüntülerine "Negatif" filtresi uygulayan ve bu işlemi donanım seviyesinde analiz eden bir benchmarking projesidir. 
+BMP Filter, 24-bit sıkıştırılmamış BMP görüntülerine "Negatif" filtresi uygulayan ve bu işlemi donanım seviyesinde analiz eden bir benchmarking projesidir. 
 
 Sistem, piksel matrisini işlerken aynı algoritmanın modern bir C derleyicisi  ile yazılmış hali ile x86-64 Assembly komut setleri arasındaki işlemci yürütme sürelerini kıyaslar. 
 Ölçümler `CLOCK_MONOTONIC` kullanılarak nanosaniye hassasiyetinde yapılır.
@@ -22,8 +22,8 @@ sudo apt install gcc nasm -y
 
 1. **Depoyu Klonlayın:**
    ```bash
-   git clone [https://github.com/seriftales/BMPFilter](https://github.com/seriftales/BMPFilter.git)
-   cd BMPFilter
+   git clone [https://github.com/seriftales/bmp_filter](https://github.com/seriftales/bmp_filter.git)
+   cd bmp_filter
    ```
 
 2. **Assembly Kodunu Nesne Dosyasına  Derleyin::**
@@ -53,7 +53,7 @@ Uygulama sizden işlenecek dosyanın adını isteyecektir (Örn: test.bmp).bmp t
 
 ##  Dizin Yapısı
 ```text
-BMPFilter/
+bmp_filter/
 ├── bmps/                # İşlenecek orijinal 24-bit BMP dosyaları 
 ├── output/              # Filtrelenmiş çıktı dosyalarının kaydedildiği dizin
 ├── main.c               # I/O, bellek yönetimi ve Benchmarking 
